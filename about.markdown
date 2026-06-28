@@ -1,18 +1,11 @@
 ---
-layout: page
+layout: archive
 title: About
 permalink: /about/
 ---
+# Hello! I'm Shivam Singh
+I'm a Junior NetDevOps Engineer with a passion for building, maintaining, and troubleshooting reliable network infrastructure. I enjoy the challenge of diagnosing complex network issues and finding practical solutions that keep systems running smoothly.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My interests lie at the intersection of networking, automation, and system administration. As I continue to grow in my career, I'm focused on strengthening my NetDevOps skills by combining traditional networking knowledge with modern automation and infrastructure practices.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I thrive in hands-on IT environments where I can solve real-world problems, learn new technologies, and continuously improve my technical skills. This portfolio showcases projects that reflect my journey, the challenges I've tackled, and my commitment to becoming a well-rounded network and automation engineer.
