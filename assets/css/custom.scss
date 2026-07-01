@@ -2,11 +2,11 @@
 #to make sure Jekyll reads this 
 --- 
 
-@import "default.scss";
-@import "author";
-@import "footer";
-@import "grid_layout";
-@import "home";
-@import "nav";
-@import "post";
-@import "taxonomy";
+@use "default";
+@use "author";
+@use "footer";
+@use "grid_layout";
+@use "home";
+@use "nav";
+@use "post";
+@use "taxonomy";
