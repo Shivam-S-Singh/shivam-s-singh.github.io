@@ -14,8 +14,9 @@ h3,
 h3.archive__subtitle {
     clear: both;
     color: #103966;
-    font-family: "Waiting for the Sunrise";
-    font-size: 1.35em;
+    font-family: "IM Fell DW Pica", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -23,8 +24,9 @@ h3.archive__subtitle {
 h1,
 h2 {
     color: #00a8db;
-    font-family: "Rubik";
-    font-weight: 700;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 p,
@@ -32,7 +34,9 @@ p,
 .archive__item-title,
 a,
 body {
-    font-family: "Work Sans";
+    font-family: "Habibi", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #main {
