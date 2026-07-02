@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Devops/SysAdmin"
+    url: "devsysadmin"
+  - title: "Network Labs"
+    url: "netlabs"
+  - title: "Packet Analysis"
+    url: "packetanalysis"
+  - title: "Home Labbing"
+    url: "homelabbing"
+  - title: "About Me"
+    url: "/about"
