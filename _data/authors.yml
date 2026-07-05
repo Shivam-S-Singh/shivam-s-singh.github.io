@@ -1,0 +1,8 @@
+Shivam Singh:
+  name        : "Shivam Singh"
+  bio         : "Let's talk about code! Reach out via the links below."
+  avatar      : "/assets/images/ssingh_headshot.jfif"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shivam.sachin.singh@gmail.com"
