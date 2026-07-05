@@ -1,17 +1,40 @@
 .masthead {
-    background-color: #F9D423
+     background:
+        linear-gradient(
+            to bottom,
+            #374C5A 0%,
+            #374C5A 18%,
+
+            #6A3D45 18%,
+            #6A3D45 35%,
+
+            #A34E36 35%,
+            #A34E36 50%,
+
+            #C46A2D 50%,
+            #C46A2D 65%,
+
+            #D8A03A 65%,
+            #D8A03A 80%,
+
+            #F6E7C8 80%,
+            #F6E7C8 100%
+        );
 }
 
 #site-nav {
-    background-color: transparent;
+    background-color: #EDE3D0;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+
+#site-nav a,
+#site-nav a:visited {
+    color: #374C5A;
 }
 
 #site-nav a,
 #site-nav a:visited {
-    color: #103966;
-}
-
-#site-nav a,
-#site-nav a:visited {
-    font-family: "Rubik";
+    font-family: "Bitter", serif;
 }
