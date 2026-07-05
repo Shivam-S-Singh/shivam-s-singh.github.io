@@ -4,5 +4,8 @@ Shivam Singh:
   avatar      : "/assets/images/ssingh_headshot.jfif"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-at"
       url: "mailto:shivam.sachin.singh@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/shivam-s-singh"
