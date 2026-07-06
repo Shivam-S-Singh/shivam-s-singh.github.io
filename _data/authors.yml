@@ -1,6 +1,6 @@
 Shivam Singh:
   name        : "Shivam Singh"
-  bio         : "Let's talk about code! Reach out via the links below."
+  bio         : "Feel free to reach out or peruse my socials."
   avatar      : "/assets/images/ssingh_headshot.jfif"
   links:
     - label: "Email"
@@ -12,3 +12,6 @@ Shivam Singh:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Shivam-S-Singh"
+    - label: "Credly"
+      icon: "fas fa-award"
+      url: "https://credly.com/users/shivam-s-singh"
