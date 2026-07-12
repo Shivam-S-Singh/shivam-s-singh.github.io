@@ -17,7 +17,7 @@ layout: archive
     {% endfor %}
 </ul>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign entries_layout = page.entries_layout | default: 'grid' %}
 {% for tag in sorted_tags %}
 {% assign cat_tags = tag[1] | where: "categories", "work" | sort %}
 {% if cat_tags != empty %}
