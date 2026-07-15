@@ -1,7 +1,6 @@
 .archive__item {
     /* position: relative; */
-    padding: 0.5em;
-    border: thin solid #ccc;
+    padding: 0.8em;
 }
 
 @media only screen and (min-width: 900px) {
@@ -29,7 +28,7 @@ article.archive__item {
 }
 
 .grid__item .archive__item-title {
-    font-size: 0.9em;
+    font-size: 1.4em;
 }
 
 .archive__item-teaser {
