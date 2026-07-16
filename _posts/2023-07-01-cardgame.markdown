@@ -1,13 +1,13 @@
 ---
 layout: posts
-title:  "Shuffling Cards"
+title:  "3DS File Transfer Failure"
 date:   2023-07-01 16:13:27 -0500
 tags: [tutorial, javascript]
 author_profile: true
 author: Leigh Stewardson
 categories: work
 highlight_home: true
-tagline: "How to build a card game"
+tagline: "From capturing pokemon to capturing packets"
 header:
   overlay_image: https://images.unsplash.com/photo-1541278107931-e006523892df
   teaser: https://images.unsplash.com/photo-1541278107931-e006523892df
@@ -15,6 +15,8 @@ header:
   caption: "Photo credit: [**Unsplash: Amanda Jones**](https://unsplash.com/@amandagraphc)"
 description: This article showcases a tutorial that teaches learners how to code.
 ---
+
+# Packet analysis of file transfer application used in Nintendo 3DS
 
 > To see a preview of this project go to [Shuffling Cards on Codespaces](https://leighlawhon-studious-space-guacamole-6v5gj6qwgp43rp4q.github.dev/) and select the `index.html` file and then `go live` on the status bar.
 
