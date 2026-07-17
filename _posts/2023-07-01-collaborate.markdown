@@ -18,7 +18,7 @@ description: This article showcases the game Collaborate and how I build it.
 ---
 
 ## Background
-In 2019 I was awarded a Department of Education SBIR grant to build an educational board game about collaboration. Though the game would eventually be a series, focusing on different STEM vocations, the first prototype focused on collaboration in tech.
+In 2019 I was awarded a Department of Education SBIR grant to build an educational.
 
 Research shows that the top skill missing from new employees (especially those just out of school) is collaboration. Often students spend their academic career focusing on their own success and grades. When they enter their career, they struggle with shifting to an environment where team success is valued. The aim of the game is to teach students to collaborate and why it’s important.
 
