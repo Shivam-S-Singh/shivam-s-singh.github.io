@@ -6,15 +6,15 @@ tags: [tutorial, javascript]
 categories: work
 highlight_home: true
 tagline: "From capturing pokemon to capturing packets"
-header:
-  overlay_image: https://images.unsplash.com/photo-1541278107931-e006523892df
-  teaser: https://images.unsplash.com/photo-1541278107931-e006523892df 
-  caption: "Photo credit: [**Unsplash: Amanda Jones**](https://unsplash.com/@amandagraphc)"
 description: This article showcases a tutorial that teaches learners how to code.
 author_profile: true
 author: Shivam Singh
 show_date: true
 read_time: true
+header:
+  overlay_image: https://images.unsplash.com/photo-1678736424903-a80e2c7f9d31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1678736424903-a80e2c7f9d31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  caption: "Photo Credit: [Unsplash: Roger Ce](https://unsplash.com/@roger_ce77)"
 ---
 
 # Packet analysis of file transfer application used in Nintendo 3DS
