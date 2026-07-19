@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 author: Shivam Singh
 author_profile: true
+classes: wide
 ---
 # Hello! I'm Shivam Singh
 I'm a Network Engineer and System Administator with a passion for building, maintaining, and troubleshooting reliable IT infrastructure. I enjoy the challenge of diagnosing complex network issues and finding practical solutions that keep systems running smoothly.
@@ -12,6 +13,7 @@ My interests lie at the intersection of networking and developer operations. As 
 
 I thrive in hands-on IT environments where I can solve real-world problems, learn new technologies, and continuously improve my technical skills. This portfolio showcases projects that reflect my journey as well as my interest within the technology space.
 
+<!--
 ## My Skills
 ### Technical Skills
 
@@ -20,3 +22,4 @@ I thrive in hands-on IT environments where I can solve real-world problems, lear
 ### Soft Skills
 
 {% include softskills.md %}
+-->
