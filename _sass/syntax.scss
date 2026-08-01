@@ -1,0 +1,50 @@
+// Code block background
+div.highlighter-rouge,
+figure.highlight {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+// Code text
+.highlight {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+
+  pre {
+    background-color: transparent;
+  }
+
+  // Comments
+  .c,
+  .c1,
+  .cm {
+    color: #6a9955;
+  }
+
+  // Keywords
+  .k,
+  .kd,
+  .kn,
+  .kp,
+  .kr {
+    color: #569cd6;
+  }
+
+  // Strings
+  .s,
+  .s1,
+  .s2 {
+    color: #ce9178;
+  }
+
+  // Numbers
+  .mi,
+  .mf {
+    color: #b5cea8;
+  }
+
+  // Function names
+  .nf {
+    color: #dcdcaa;
+  }
+}
