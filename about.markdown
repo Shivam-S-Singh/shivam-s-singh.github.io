@@ -7,7 +7,7 @@ classes: wide
 title: Hello There! I'm Shivam Singh
 ---
 
-I'm a Network Engineer and System Administator with a passion for building, maintaining, and troubleshooting reliable IT infrastructure. I enjoy the challenge of diagnosing complex network issues and finding practical solutions that keep systems running smoothly. I thrive in hands-on IT environments where I can solve real-world problems, explore new technologies, and continuously grow my technical skills.
+I'm a Network Engineer and System Administator with a passion for building, maintaining, and troubleshooting reliable IT infrastructure. I enjoy the challenge of diagnosing complex network issues and finding practical solutions that keep systems running smoothly. I thrive in hands-on environments where I can solve real-world problems, explore new technologies, and continuously grow my technical skills.
 
 My interests lie at the intersection of networking and developer operations. As I continue to grow in my career, I'm focused on strengthening my NetDevOps skills by combining traditional networking knowledge with modern automation and infrastructure practices.
 
