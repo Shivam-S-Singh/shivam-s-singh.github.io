@@ -7,5 +7,6 @@ classes: wide
 show_excerpts: true
 entries_layout: grid
 ---
-I am a Network Operator who has a passion for building reliable systems through the utilization of DevOps practices.
-Below are some of my favorite projects and articles that highlight work I am proud of. You may also go to [My Work](/mywork) or [My Writing](/mywriting) to view a categorized listing. 
+I’m a Network Operator passionate about building reliable, scalable systems through DevOps practices.
+
+This portfolio is a collection of projects, articles, and experiences that reflect my journey in technology. Below showcases the work I’m most proud of. Explore My Work or My Writing to learn more.
