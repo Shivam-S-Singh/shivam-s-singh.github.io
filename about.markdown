@@ -7,9 +7,7 @@ classes: wide
 title: Hello There! I'm Shivam Singh
 ---
 
-I'm a Network Engineer and System Administator with a passion for building, maintaining, and troubleshooting reliable IT infrastructure. I enjoy the challenge of diagnosing complex network issues and finding practical solutions that keep systems running smoothly. I thrive in hands-on environments where I can solve real-world problems, explore new technologies, and continuously grow my technical skills.
-
-My interests lie at the intersection of networking and developer operations. As I continue to grow in my career, I'm focused on strengthening my NetDevOps skills by combining traditional networking knowledge with modern automation and infrastructure practices.
+I relish the challenge of diagnosing complex network issues and finding practical solutions that keep systems running smoothly. My interests lie at the intersection of networking and developer operations. As I continue to grow in my career, I'm focused on strengthening my NetDevOps skills by combining traditional networking knowledge with modern automation and infrastructure practices.
 
 ## Professional History ##
 I first got my feet wet in technology by building my own high-end PC for ***“productivity”***, guided by countless YouTube tutorials. Around the same time, I joined my high school’s Technology Squad, where I gained hands-on experience with fundamental IT and system administration tasks. My responsibilities included deploying disk images using Norton Ghost, performing hardware upgrades, and practicing proper cable management.
@@ -28,15 +26,17 @@ That experience taught me how to manage competing priorities, communicate with p
 Fast-forward to current day.
 
 ## Personal Life ##
-When I'm not working or studying I enjoy gaming, lifting and reading, in this particular order.
+When I'm not working or studying I enjoy gaming, reading and homelabbing.
 
 Gaming has always been a significant part of my life and has greatly influenced the career path I've chosen. It sparked my interest in technology, problem-solving, and how complex systems work. I'm particularly drawn to story-driven science fiction games such as BioShock and Prey (2017), which combine immersive worlds with innovative storytelling and thought-provoking themes. I used to collect physical games and still appreciate them as collectibles, even as the industry continues to shift toward digital distribution.
+
+Complementary to gaming, I enjoy getting lost in science fiction films and westerns, especially Ridley Scott’s Alien and Blade Runner, whose dark, beautifully crafted worlds have stayed with me long after the credits roll. I also love westerns because they offer a refreshing escape whenever I feel fatigued by technology. Their timeless stories of good versus evil. The Quick and the Dead is a favorite for its over-the-top characters and larger-than-life style.
 
 Depending on the role, a career in IT can involve long hours at a desk and a largely sedentary lifestyle. That's the case in my current role, so I make a conscious effort to maintain balance by incorporating regular physical activity into my daily routine. My favorite form of exercise is weightlifting, which not only helps me stay fit physically but also improves my mental state as well. If the day isn't going my way and everything seems to be falling apart, I can always look back and say I accomplished something. 
 
 I enjoy reading a wide variety of books, though I gravitate toward fiction. The classics are my favorites, with 1984 by George Orwell, The Sea-Wolf by Jack London, and Of Mice and Men by John Steinbeck among the books that have stayed with me. I also enjoy collecting physical books—not just as keepsakes, but because it also helps reduce my overall screen time.
 
-In addition to the activities mentioned above, I enjoy getting lost in science fiction films and westerns, especially Ridley Scott’s Alien and Blade Runner, whose dark, beautifully crafted worlds have stayed with me long after the credits roll. I also love westerns because they offer a refreshing escape whenever I feel fatigued by technology. Their timeless stories of good versus evil. The Quick and the Dead is a favorite for its over-the-top characters and larger-than-life style.
+
 
 <!--
 ## My Skills
