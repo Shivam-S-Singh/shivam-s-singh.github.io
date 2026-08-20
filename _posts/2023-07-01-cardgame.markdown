@@ -11,6 +11,7 @@ author_profile: true
 author: Shivam Singh
 show_date: true
 read_time: true
+classes: wide
 header:
   overlay_image: https://images.unsplash.com/photo-1678736424903-a80e2c7f9d31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   teaser: https://images.unsplash.com/photo-1678736424903-a80e2c7f9d31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -19,20 +20,19 @@ header:
 
 # Packet analysis of file transfer application used in Nintendo 3DS
 
-> To see a preview of this project go to [Shuffling Cards on Codespaces](https://leighlawhon-studious-space-guacamole-6v5gj6qwgp43rp4q.github.dev/) and select the `index.html` file and then `go live` on the status bar.
+> This article builds on a LinkedIn post I previously published, revisiting the exercise in a more detailed and structured format. You can view the original post [_here_](https://www.linkedin.com/feed/update/urn:li:activity:7439851307710017536/).
 
-![go live](/assets/images/golive.png)
+## Overview
+I had the opportunity recently to solve a personal issue I was having with my Nintendo 3DS using Wireshark. 
 
-## Background
-A few years ago, I had the opportunity to build an app for LinkedIn Learning. The project aimed to teach the concepts of binding and propagation in plain JavaScript. Over a span of two months, I meticulously developed the course, and the recording took place at the LinkedIn campus in Carpenteria, CA. This venture marked my first tutorial collaboration with LinkedIn, and it proved to be an incredible experience. I came across this opportunity through a job board dedicated to female developers, and the entire process, from working with the content manager to the producer, was highly professional.
+I wanted to backup the game data from my MicroSD card on my 3DS to my PC. The 3DS has a file transfer application called microSD Management which lets you access and transfer your files from a Windows 7 or 8.1 PC with Network Sharing enabled. Unfortunately there was some challenges with the application.
 
-<iframe src="https://wireview.github.io/" width="100%" height="400" title="Example Content"></iframe>
+## Troubleshooting
+### Is it an application _(Layer 7)_ issue ?
 
-## Approach
-In all my courses, I strive to create a narrative that complements the learning objectives. In the case of this particular project, I found that using cards as an analogy was a natural fit. By leveraging this analogy, I was able to elucidate complex JavaScript concepts in a simplified and easily understandable format for learners.
 
 ## Results
-Upon publication, the course garnered significant attention, accumulating over 6,500 viewers to date. It remains one of my personal favorite tutorials, as it encapsulates my passion for teaching and the JavaScript language.
 
-## Next Steps
-After witnessing the success of the cooking-inspired coding lesson, I am thrilled to share that I am incorporating the "Piece of Cake" app in my current tutorial, "Creating GitHub Portfolios." This exciting project seamlessly integrates with Codespaces, offering learners a hands-on demonstration of leveraging GitHub portfolios effectively. By including the "Piece of Cake" code, my objective is to enrich the overall learning experience, enabling individuals to showcase their skills with confidence and flair.
+
+## What to take away ?
+
