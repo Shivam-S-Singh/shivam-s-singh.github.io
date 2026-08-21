@@ -13,8 +13,8 @@ show_date: true
 read_time: true
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/photo-1678736424903-a80e2c7f9d31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1678736424903-a80e2c7f9d31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  overlay_image: /assets/images/3DS_Analysis/nintendo_cover.jfif
+  teaser: /assets/images/3DS_Analysis/nintendo_cover.jfif
   caption: "Photo Credit: [Unsplash: Roger Ce](https://unsplash.com/@roger_ce77)"
 ---
 
@@ -22,17 +22,23 @@ header:
 
 > This article builds on a LinkedIn post I previously published, revisiting the exercise in a more detailed and structured format. You can view the original post [_here_](https://www.linkedin.com/feed/update/urn:li:activity:7439851307710017536/).
 
-## Overview
-I had the opportunity recently to solve a personal issue I was having with my Nintendo 3DS using Wireshark. 
+[![My 3DS](/assets/images/3DS_Analysis/3DS_Wireshark.jpg)](/assets/images/3DS_Analysis/3DS_Wireshark.jpg)
 
-I wanted to backup the game data from my MicroSD card on my 3DS to my PC. The 3DS has a file transfer application called microSD Management which lets you access and transfer your files from a Windows 7 or 8.1 PC with Network Sharing enabled. Unfortunately there was some challenges with the application.
+## Overview
+I wanted to backup the game data from my MicroSD card on my 3DS to my PC. The 3DS has a file transfer application called _microSD_ _Management_ which lets you access and transfer your files from a Windows 7 or 8.1 PC with Network Sharing enabled. Unfortunately there was some challenges with the application.
 
 ## Troubleshooting
-### Is it an application _(Layer 7)_ issue ?
+### Is it an application issue ?
+When I attempted to use the application I found that my PC was not detecting the 3DS in Network Sharing on Windows. I immediately assumed it may have been a compatibility issue since I was on Windows 10 but I continued with my troubleshooting ignoring that fact.
+
+My second theory was that perhaps the protocol being used was maybe being blocked or unsupported by my operating system. 
+
+A quick search for the protocol used by the microSD Management application indicated SMBv1 which is disabled by default on Windows 10. SMBv1 was installed in Windows Features and then allowed through Windows Firewall.
+
+### Is it related to networking ?
+
+## Explanation
 
 
-## Results
-
-
-## What to take away ?
+## Take Away
 
