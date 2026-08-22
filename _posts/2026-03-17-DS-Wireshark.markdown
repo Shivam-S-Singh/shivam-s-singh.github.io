@@ -1,12 +1,12 @@
 ---
 layout: posts
 title:  "3DS File Transfer Failure"
-date:   2023-07-01 16:13:27 -0500
+date:   2026-03-17 21:52:57 -0400
 tags: [tutorial, javascript]
 categories: work
 highlight_home: true
 tagline: "From capturing pokemon to capturing packets"
-description: This article showcases a tutorial that teaches learners how to code.
+description: This article covers a packet analysis exercise on a File Transfer application.
 author_profile: true
 author: Shivam Singh
 show_date: true
@@ -38,13 +38,14 @@ I decided to test with an alternative router instead of using the router from my
 
 ## Analysis
 ### Why did the router from my ISP fail ?
-I captured the traffic in _Wireshark_ from both routers and compared them against one another in hopes of finding something meaningful. The only thing that stood out was the difference in the IGMP protocol that was utilized. The successful connection used _IGMPv2_ while _IGMPv3_ failed.
+I captured the traffic in _Wireshark_ from both routers and compared them against one another in hopes of finding something meaningful. The only thing that stood out was the difference in the version of the IGMP protocol that was utilized. The successful connection used _IGMPv2_ while _IGMPv3_ failed.
 
 [![Wireshark Capture](/assets/images/3DS_Analysis/WiresharkCapture3DS_2.png)](/assets/images/3DS_Analysis/WiresharkCapture3DS_2.png)
 
-I reviewed the settings in my ISPs router and it turned out _IGMPv1_ and _IGMPv2_ is blocked while _IGMPv3_ is the default protocol. After altering the settings the application was functional.
+I reviewed the settings in my ISPs router and it turned out _IGMPv1_ and _IGMPv2_ is blocked while _IGMPv3_ is set as the default protocol. After altering the settings the application was functional.
 
 [![Wireshark Capture](/assets/images/3DS_Analysis/3DS_Post_2.png){: width="83%"}](/assets/images/3DS_Analysis/3DS_Post_2.png)
 
 ## Explanation
+
 
