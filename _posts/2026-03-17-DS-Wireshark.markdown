@@ -2,7 +2,7 @@
 layout: posts
 title:  "3DS File Transfer Failure"
 date:   2026-03-17 21:52:57 -0400
-tags: [tutorial, javascript]
+tags: [Packet Analysis]
 categories: work
 highlight_home: true
 tagline: "From capturing pokemon to capturing packets"
@@ -46,7 +46,9 @@ I reviewed the settings in my ISPs router and it turned out _IGMPv1_ and _IGMPv2
 
 [![Wireshark Capture](/assets/images/3DS_Analysis/3DS_Post_2.png){: width="83%"}](/assets/images/3DS_Analysis/3DS_Post_2.png)
 
-## Explanation & Takeaway
+## Explanation
 IGMP (Internet Group Management Protocol) is used by routers to manage multicast communication. Here, it helps the computer and Nintendo 3DS discover and connect to each other over the network.
 
 The 3DS uses _IGMPv2_, but the router rejected it and replied with _IGMPv3_, which the 3DS does not support. As a result, the connection failed.
+
+The Nintendo 3DS utilized a protocol that is no longer considered the standard for multicast communication.
