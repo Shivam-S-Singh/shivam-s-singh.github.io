@@ -1,12 +1,12 @@
 ---
 layout: posts
-title:  "3DS File Transfer Failure"
+title: "It's-a Me, IGMP!"
 date:   2026-03-17 21:52:57 -0400
 tags: [Packet Analysis]
 categories: work
 highlight_home: true
-tagline: "From capturing pokemon to capturing packets"
-description: This article covers a packet analysis exercise on a File Transfer application.
+tagline: "Turns out, the real boss fight was hiding in the router."
+description: A Packet-Level Investigation of a Nintendo 3DS Transfer Failure.
 author_profile: true
 author: Shivam Singh
 show_date: true
@@ -18,7 +18,7 @@ header:
   caption: "Photo Credit: [Nintendo]"
 ---
 
-# Packet analysis of file transfer application used in Nintendo 3DS
+# A Packet-Level Investigation of a Nintendo 3DS Transfer Failure.
 
 > This article builds on a LinkedIn post I previously published, revisiting the exercise in a more detailed and structured format. You can view the original post [_here_](https://www.linkedin.com/feed/update/urn:li:activity:7439851307710017536/).
 
