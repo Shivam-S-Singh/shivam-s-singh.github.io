@@ -5,7 +5,7 @@ date:   2026-03-17 21:52:57 -0400
 tags: [Packet Analysis]
 categories: work
 highlight_home: true
-tagline: "Turns out, the real boss fight was hiding in the router."
+tagline: "Following the packets down the pipe to find out why the transfer failed."
 description: A Packet-Level Investigation of a Nintendo 3DS Transfer Failure.
 author_profile: true
 author: Shivam Singh
