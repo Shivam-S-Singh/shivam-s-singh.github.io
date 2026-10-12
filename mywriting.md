@@ -1,6 +1,6 @@
 ---
 title: "My Writing"
-layout: archive
+layout: categories_article
 author: Shivam Singh
 author_profile: true
 classes: wide
