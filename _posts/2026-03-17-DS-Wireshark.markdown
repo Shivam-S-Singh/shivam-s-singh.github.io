@@ -3,7 +3,7 @@ layout: posts
 title: "It's-a Me, IGMP!"
 date:   2026-03-17 21:52:57 -0400
 tags: [Packet Analysis]
-categories: work
+categories: article
 highlight_home: true
 tagline: "Following the packets down the pipe to find out why the application failed."
 description: A Packet-Level Investigation of a Nintendo 3DS File Transfer Application Failure.
@@ -27,6 +27,8 @@ header:
 ## Overview
 I wanted to backup the game data from my MicroSD card on my 3DS to my PC. The 3DS has a file transfer application called __microSD Management__ which lets you access and transfer your files from a _Windows 7_ or _8.1_ PC with _Network Sharing_ enabled. Unfortunately there was some challenges with the application.
 
+[![3DS Application](/assets/images/3DS_Analysis/microSD_management.jpg){: width="60%" style="display: block; margin: 0 auto;"}](/assets/images/3DS_Analysis/microSD_management.jpg "File Transfer Application.")
+
 When I attempted to use the application, my PC could not detect the 3DS through Windows Network Sharing. I initially suspected a Windows 10 compatibility issue but continued troubleshooting.
 
 ## Troubleshooting
@@ -38,6 +40,8 @@ The network protocol might be blocked or unsupported. A quick search showed that
 
 ### Is it related to networking ?
 I decided to test with an alternative router instead of using the router from my ISP to rule out possible network issues. I used my _Cisco Linksys Wireless-G 2.4 GHz_ for testing and it worked with no issues.
+
+[![Application Success](/assets/images/3DS_Analysis/ShareAccessSuccess.png)](/assets/images/3DS_Analysis/ShareAccessSuccess.png "Application Success.")
 
 ## Analysis
 ### Why did the router from my ISP fail ?
