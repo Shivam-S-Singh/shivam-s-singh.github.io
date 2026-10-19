@@ -10,7 +10,7 @@ title: Hello There! I'm Shivam Singh
 I relish the challenge of diagnosing complex network issues and finding practical solutions that keep systems running smoothly. My interests lie at the intersection of networking and developer operations. As I continue to grow in my career, I'm focused on strengthening my NetDevOps skills by combining traditional networking knowledge with modern automation and infrastructure practices.
 
 ## Professional History ##
-I first got my feet wet in technology by building my own high-end PC for ***“productivity”***, guided by countless YouTube tutorials. Around the same time, I joined my high school’s Technology Squad, where I gained hands-on experience with fundamental IT and system administration tasks. My responsibilities included deploying disk images using Norton Ghost, performing hardware upgrades, and practicing proper cable management.
+I first got my feet wet in technology by building my own high-end PC for ***“productivity”***, guided by YouTube tutorials. Around the same time, I joined my high school’s Technology Squad, where I gained hands-on experience with fundamental IT and system administration tasks. My responsibilities included deploying disk images using Norton Ghost, performing hardware upgrades, and practicing proper cable management.
 
 After high school, I decided to pursue a Bachelor of Science in Information Technology, specializing in Network Communication. My degree is currently in progress, with my final project underway. During my studies, I had the opportunity to oversee the computer lab at my school, which gave me valuable access to network equipment and allowed me to further develop my practical networking skills.
 

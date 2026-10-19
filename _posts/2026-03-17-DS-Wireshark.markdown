@@ -22,12 +22,34 @@ header:
 
 > This article builds on a LinkedIn post I previously published, revisiting the exercise in a more detailed and structured format. You can view the original post [_here_](https://www.linkedin.com/feed/update/urn:li:activity:7439851307710017536/).
 
-[![My 3DS](/assets/images/3DS_Analysis/3DS_Wireshark.jpg){: width="83%" style="display: block; margin: 0 auto;"}](/assets/images/3DS_Analysis/3DS_Wireshark.jpg "My setup.")
+<figure style="width: 83%; margin: 0 auto;">
+  <a href="/assets/images/3DS_Analysis/3DS_Wireshark.jpg"
+     title="My setup.">
+    <img src="/assets/images/3DS_Analysis/3DS_Wireshark.jpg"
+         alt="My 3DS"
+         style="width: 100%; height: auto; display: block; margin: 0;">
+  </a>
+  <figcaption style="text-align: center; font-size: 20px;">
+    My Setup.
+  </figcaption>
+</figure>
+
 
 ## Overview
 I wanted to backup the game data from my MicroSD card on my 3DS to my PC. The 3DS has a file transfer application called __microSD Management__ which lets you access and transfer your files from a _Windows 7_ or _8.1_ PC with _Network Sharing_ enabled. Unfortunately there was some challenges with the application.
 
-[![3DS Application](/assets/images/3DS_Analysis/microSD_management.jpg){: width="60%" style="display: block; margin: 0 auto;"}](/assets/images/3DS_Analysis/microSD_management.jpg "File Transfer Application.")
+<figure style="width: 60%; margin: 0 auto;">
+  <a href="/assets/images/3DS_Analysis/microSD_management.jpg"
+     title="File Transfer Application.">
+    <img src="/assets/images/3DS_Analysis/microSD_management.jpg"
+         alt="File Transfer Application"
+         style="width: 100%; height: auto; display: block; margin: 0;">
+  </a>
+  <figcaption style="text-align: center; font-size: 20px;">
+    File Transfer Application.
+  </figcaption>
+</figure>
+
 
 When I attempted to use the application, my PC could not detect the 3DS through Windows Network Sharing. I initially suspected a Windows 10 compatibility issue but continued troubleshooting.
 
