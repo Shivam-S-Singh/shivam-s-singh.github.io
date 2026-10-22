@@ -22,9 +22,9 @@ header:
 
 > This article builds on a LinkedIn post I previously published, revisiting the exercise in a more detailed and structured format. You can view the original post [_here_](https://www.linkedin.com/feed/update/urn:li:activity:7439851307710017536/).
 
-<figure style="width: 83%; margin: 0 auto;">
+<figure style="width: 90%; margin: 0 auto;">
   <a href="/assets/images/3DS_Analysis/3DS_Wireshark.jpg"
-     title="My setup.">
+     title="My Setup.">
     <img src="/assets/images/3DS_Analysis/3DS_Wireshark.jpg"
          alt="My 3DS"
          style="width: 100%; height: auto; display: block; margin: 0;">
@@ -58,22 +58,64 @@ When I attempted to use the application, my PC could not detect the 3DS through 
 
 The network protocol might be blocked or unsupported. A quick search showed that the microSD Management application uses _SMBv1_, which is disabled by default in Windows 10. I enabled _SMBv1_ through Windows Features and allowed it through Windows Firewall, but the 3DS still could not connect.
 
-[![SMB Settings](/assets/images/3DS_Analysis/SMB_Protocol.jpg)](/assets/images/3DS_Analysis/SMB_Protocol.jpg "Enabling SMBv1.")
+
+<figure style="width: 60%; margin: 0 auto;">
+  <a href="/assets/images/3DS_Analysis/SMB_Protocol.jpg"
+     title="Enabling SMBv1.">
+    <img src="/assets/images/3DS_Analysis/SMB_Protocol.jpg"
+         alt="Enabling SMBv1."
+         style="width: 100%; height: auto; display: block; margin: 0;">
+  </a>
+  <figcaption style="text-align: center; font-size: 20px;">
+    Enabling SMBv1.
+  </figcaption>
+</figure>
 
 ### Is it related to networking ?
 I decided to test with an alternative router instead of using the router from my ISP to rule out possible network issues. I used my _Cisco Linksys Wireless-G 2.4 GHz_ for testing and it worked with no issues.
 
-[![Application Success](/assets/images/3DS_Analysis/ShareAccessSuccess.png)](/assets/images/3DS_Analysis/ShareAccessSuccess.png "Application Success.")
+
+<figure style="width: 100%; margin: 0 auto;">
+  <a href="/assets/images/3DS_Analysis/ShareAccessSuccess.png"
+     title="Application Success.">
+    <img src="/assets/images/3DS_Analysis/ShareAccessSuccess.png"
+         alt="Application Success."
+         style="width: 100%; height: auto; display: block; margin: 0;">
+  </a>
+  <figcaption style="text-align: center; font-size: 20px;">
+    Application Success.
+  </figcaption>
+</figure>
 
 ## Analysis
 ### Why did the router from my ISP fail ?
 I captured the traffic in _Wireshark_ from both routers and compared them against one another in hopes of finding something meaningful. The only thing that stood out was the difference in the version of the IGMP protocol that was utilized. The successful connection used _IGMPv2_ while _IGMPv3_ failed.
 
-[![Wireshark Capture](/assets/images/3DS_Analysis/WiresharkCapture3DS_2.png)](/assets/images/3DS_Analysis/WiresharkCapture3DS_2.png "Comparing the captures.")
+<figure style="width: 100%; margin: 0 auto;">
+  <a href="/assets/images/3DS_Analysis/WiresharkCapture3DS_2.png"
+     title="Comparing the captures.">
+    <img src="/assets/images/3DS_Analysis/WiresharkCapture3DS_2.png"
+         alt="Comparing the captures."
+         style="width: 100%; height: auto; display: block; margin: 0;">
+  </a>
+  <figcaption style="text-align: center; font-size: 20px;">
+    Comparing the captures.
+  </figcaption>
+</figure>
 
 I reviewed the settings in my ISPs router and it turned out _IGMPv1_ and _IGMPv2_ is blocked while _IGMPv3_ is set as the default protocol. After altering the settings the application was functional.
 
-[![Router and PC Settings](/assets/images/3DS_Analysis/3DS_Post_2.png){: width="83%"}](/assets/images/3DS_Analysis/3DS_Post_2.png "Reviewing the ISPs router settings and then testing the application.")
+<figure style="width: 90%; margin: 0 auto;">
+  <a href="/assets/images/3DS_Analysis/3DS_Post_2.png"
+     title="Reviewing the ISPs router settings and then testing the application.">
+    <img src="/assets/images/3DS_Analysis/3DS_Post_2.png"
+         alt="Reviewing the ISPs router settings and then testing the application."
+         style="width: 100%; height: auto; display: block; margin: 0;">
+  </a>
+  <figcaption style="text-align: center; font-size: 20px;">
+    Reviewing the ISPs router settings and then testing the application.
+  </figcaption>
+</figure>
 
 ## Explanation
 IGMP (Internet Group Management Protocol) is used by routers to manage multicast communication. Here, it helps the computer and Nintendo 3DS discover and connect to each other over the network.
