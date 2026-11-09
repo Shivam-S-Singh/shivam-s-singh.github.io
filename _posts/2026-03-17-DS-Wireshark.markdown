@@ -29,7 +29,7 @@ header:
          alt="My 3DS"
          style="width: 100%; height: auto; display: block; margin: 0;">
   </a>
-  <figcaption style="text-align: center; font-size: 20px;">
+  <figcaption>
     My Setup.
   </figcaption>
 </figure>
@@ -45,7 +45,7 @@ I wanted to backup the game data from my MicroSD card on my 3DS to my PC. The 3D
          alt="File Transfer Application"
          style="width: 100%; height: auto; display: block; margin: 0;">
   </a>
-  <figcaption style="text-align: center; font-size: 20px;">
+  <figcaption>
     File Transfer Application.
   </figcaption>
 </figure>
@@ -66,7 +66,7 @@ The network protocol might be blocked or unsupported. A quick search showed that
          alt="Enabling SMBv1."
          style="width: 100%; height: auto; display: block; margin: 0;">
   </a>
-  <figcaption style="text-align: center; font-size: 20px;">
+  <figcaption>
     Enabling SMBv1.
   </figcaption>
 </figure>
@@ -82,7 +82,7 @@ I decided to test with an alternative router instead of using the router from my
          alt="Application Success."
          style="width: 100%; height: auto; display: block; margin: 0;">
   </a>
-  <figcaption style="text-align: center; font-size: 20px;">
+  <figcaption>
     Application Success.
   </figcaption>
 </figure>
@@ -98,7 +98,7 @@ I captured the traffic in _Wireshark_ from both routers and compared them agains
          alt="Comparing the captures."
          style="width: 100%; height: auto; display: block; margin: 0;">
   </a>
-  <figcaption style="text-align: center; font-size: 20px;">
+  <figcaption>
     Comparing the captures.
   </figcaption>
 </figure>
@@ -112,7 +112,7 @@ I reviewed the settings in my ISPs router and it turned out _IGMPv1_ and _IGMPv2
          alt="Reviewing the ISPs router settings and then testing the application."
          style="width: 100%; height: auto; display: block; margin: 0;">
   </a>
-  <figcaption style="text-align: center; font-size: 20px;">
+  <figcaption>
     Reviewing the ISPs router settings and then testing the application.
   </figcaption>
 </figure>
